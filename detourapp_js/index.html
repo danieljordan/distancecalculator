@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Detour Distance</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+
+
+        <h1>Detour Distance Calculator</h1>
+        <form name="points" id="points_form" action="#">
+        <h2>Driver One</h2>
+			Start Point Latitude: <input type="text" id="latitudeA"/><br>
+			Start Point Longitude: <input type="text" id="longitudeA"/><br>
+			End Point Latitude: <input type="text" id="latitudeB"/><br>
+			End Point Longitude: <input type="text" id="longitudeB"/>
+		<h2>Driver Two</h2>
+			Start Point Latitude: <input type="text" id="latitudeC"/><br>
+			Start Point Longitude: <input type="text" id="longitudeC"/><br>
+			End Point Latitude: <input type="text" id="latitudeD"/><br>
+			End Point Longitude: <input type="text" id="longitudeD"/>
+		<br>
+		<button onclick="shorterDetour()">Calculate</button>
+		</form>
+    </body>
+</html>
